@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TitleScreenLoadScene.unity
     guid: 5fc434f3431236f47ac1f57f9645dbbd
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 6b0435d590fb2fd4691d3fd21fe63f26
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Store.unity
     guid: e64846d018d7b454dabb7fe00cdb6ba3
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: be3da130e2c4db0469889a9fa8d1dc7c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CharacterCustomise.unity
     guid: f5bc69841f648424d8465fed0f4bf904
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WorldSelect.unity
     guid: 624c72b129db39c4ca9efebb1c89237a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: e6728238924f90e44b4360dc7b35cdcb
   m_configObjects: {}
