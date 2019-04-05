@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadMainMenu : MonoBehaviour
+public class LoadScenes : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void LoadMain()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadSettings()
     {
-        
+        SceneManager.LoadScene("Settings");
     }
+
+    public void LoadStore()
+    {
+        SceneManager.LoadScene("Store");
+    }
+
 }
