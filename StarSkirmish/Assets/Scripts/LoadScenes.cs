@@ -20,4 +20,14 @@ public class LoadScenes : MonoBehaviour
         SceneManager.LoadScene("Store");
     }
 
+    public void LoadWorlds()
+    {
+        SceneManager.LoadScene("WorldSelect");
+    }
+
+    public void LoadProfile()
+    {
+
+    }
+
 }
