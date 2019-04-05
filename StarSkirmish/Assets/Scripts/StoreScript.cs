@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadLevelSelect : MonoBehaviour
+public class StoreScript : MonoBehaviour
 {
-    public void loadLevel()
+    public void loadStore()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadScene("Store");
     }
 
-    
 }

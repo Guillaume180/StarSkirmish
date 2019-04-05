@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadLevelSelect : MonoBehaviour
-{
-    public void loadLevel()
-    {
-        SceneManager.LoadScene("LevelSelect");
-    }
 
-    
+public class WorldScene : MonoBehaviour
+{
+    public void loadWorldScene()
+    {
+        SceneManager.LoadScene("WorldSelect");
+    }
 }
