@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StoreScript : MonoBehaviour
-{
-    public void loadStore()
-    {
-        SceneManager.LoadScene("Store");
-    }
 
+public class WorldScene : MonoBehaviour
+{
+    public void loadWorldScene()
+    {
+        SceneManager.LoadScene("WorldSelect");
+    }
 }

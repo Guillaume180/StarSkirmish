@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StoreScript : MonoBehaviour
+public class LoadCharacterScene : MonoBehaviour
 {
-    public void loadStore()
+    public void loadCharacter()
     {
-        SceneManager.LoadScene("Store");
+        SceneManager.LoadScene("CharacterCustomise");
     }
-
 }
