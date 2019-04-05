@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class TitleLoadScreen : MonoBehaviour
 {
     public Slider loadingSlider;
+    public Text percentText;
 
     public int loadingTimer = 0;
 
@@ -24,7 +25,7 @@ public class TitleLoadScreen : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             loadingTimer++;
-            if (loadingTimer >= 5)
+            if (loadingTimer >= 10)
             {
                 StopCoroutine("LoseTime");
                 loadingTimer = refreshLoadTime;
@@ -43,5 +44,6 @@ public class TitleLoadScreen : MonoBehaviour
     void Update()
     {
         loadingSlider.value = loadingTimer;
+        percentText.text = (loadingTimer*0.1f).ToString("0%");
     }
 }
