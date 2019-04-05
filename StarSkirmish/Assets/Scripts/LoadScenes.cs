@@ -29,5 +29,9 @@ public class LoadScenes : MonoBehaviour
     {
 
     }
+    public void loadLevel()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
 
 }

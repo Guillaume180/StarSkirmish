@@ -605,8 +605,8 @@ GameObject:
   - component: {fileID: 986711904}
   - component: {fileID: 986711907}
   - component: {fileID: 986711906}
-  - component: {fileID: 986711908}
   - component: {fileID: 986711905}
+  - component: {fileID: 986711908}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 986711903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c797bca89603be4b896a54ceaf0b5f1, type: 3}
+  m_Script: {fileID: 11500000, guid: aeb2e2eb04a7fed44942a556030e2589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1182069729
