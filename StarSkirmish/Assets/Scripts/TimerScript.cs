@@ -12,6 +12,7 @@ public class TimerScript : MonoBehaviour
 
     //If we are going to put a timer in our game.
     public Text timeText;
+    public Slider explosionSilder;
 
     public GameObject gameIsOverScreen;
     public GameObject gameIsCompleteScreen;
@@ -19,6 +20,7 @@ public class TimerScript : MonoBehaviour
     public GameObject tutorialScreen;
 
     public float time;
+    public float explosion;
 
     private void Update()
     {
@@ -45,6 +47,7 @@ public class TimerScript : MonoBehaviour
         }
 
         timeText.text = time.ToString("F0");
+        explosionSilder.value = explosion;
     }
 
     void CountdownTime()
@@ -52,6 +55,7 @@ public class TimerScript : MonoBehaviour
         if(time > 0)
         {
             time -= Time.deltaTime;
+            explosion += Time.deltaTime;
         }
         else if (time <= 0)
         {
