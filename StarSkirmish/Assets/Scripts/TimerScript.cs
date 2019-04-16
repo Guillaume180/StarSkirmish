@@ -15,11 +15,10 @@ public class TimerScript : MonoBehaviour
 
     public GameObject gameIsOverScreen;
     public GameObject gameIsCompleteScreen;
-    public GameObject endOfLevelScreen;
     public GameObject gameIsPauseScreen;
     public GameObject tutorialScreen;
 
-    public int time;
+    public float time;
 
     private void Update()
     {
@@ -45,34 +44,29 @@ public class TimerScript : MonoBehaviour
                 break;
         }
 
-        if (time <= 0)
-        {
-            StopCoroutine("LoseTime");
-            state = TimeState.Gameover;
-        }
+        timeText.text = time.ToString("F0");
     }
 
     void CountdownTime()
     {
-        StartCoroutine("LoseTime");
-    }
-
-    IEnumerator LoseTime()
-    {
-        while (true)
+        if(time > 0)
         {
-            yield return new WaitForSeconds(1);
-            time--;
+            time -= Time.deltaTime;
+        }
+        else if (time <= 0)
+        {
+            state = TimeState.Gameover;
         }
     }
 
-    public void TutorialScreen()
+
+    void TutorialScreen()
     {
         Time.timeScale = 0;
         tutorialScreen.SetActive(true);
     }
 
-    public void UnpauseTheGame()
+    void UnpauseTheGame()
     {
         Time.timeScale = 1;
         gameIsPauseScreen.SetActive(false);
@@ -80,19 +74,19 @@ public class TimerScript : MonoBehaviour
         state = TimeState.Countdown;
     }
 
-    public void PauseTheGame()
+    void PauseTheGame()
     {
         Time.timeScale = 0;
         gameIsPauseScreen.SetActive(true);
     }
 
-    public void GameisOver()
+    void GameisOver()
     {
         Time.timeScale = 0;
         gameIsOverScreen.SetActive(true);
     }
 
-    public void GameIsComplete()
+    void GameIsComplete()
     {
         Time.timeScale = 0;
         gameIsCompleteScreen.SetActive(true);

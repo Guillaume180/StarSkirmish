@@ -8,6 +8,7 @@ public class ChangeScenes : MonoBehaviour
     //Simple script to make the button select certain levels.
     public void ChangeTheScene(int SceneNumber)
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneNumber);
     }
 }

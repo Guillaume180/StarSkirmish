@@ -19,6 +19,8 @@ public class CharacterController : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    public TimerScript timeState;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,5 +73,23 @@ public class CharacterController : MonoBehaviour
         Vector3 Scaler = transform.localScale;
         Scaler.x *= -1;
         transform.localScale = Scaler;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.collider.tag == "Tutorial")
+        {
+            Debug.Log("Enter the Box");
+            timeState.state = TimerScript.TimeState.Tutorial;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.tag == "Tutorial")
+        {
+            Debug.Log("Enter the Box");
+            timeState.state = TimerScript.TimeState.Tutorial;
+        }
     }
 }
