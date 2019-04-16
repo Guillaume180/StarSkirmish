@@ -25,7 +25,12 @@ public class CharacterController : MonoBehaviour
     void Start()
     {
         bonusJump = bonusJumpAmount;
-        myRigBod = GetComponent<Rigidbody2D>(); 
+        myRigBod = GetComponent<Rigidbody2D>();
+        
+        if(Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
     }
 
     // Update is called once per frame
@@ -75,21 +80,18 @@ public class CharacterController : MonoBehaviour
         transform.localScale = Scaler;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.collider.tag == "Tutorial")
+        if (collision.tag == "Tutorial")
         {
             Debug.Log("Enter the Box");
             timeState.state = TimerScript.TimeState.Tutorial;
         }
-    }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.collider.tag == "Tutorial")
+        if (collision.tag == "FinishLine")
         {
-            Debug.Log("Enter the Box");
-            timeState.state = TimerScript.TimeState.Tutorial;
+            Debug.Log("You have made it");
+            timeState.state = TimerScript.TimeState.Complete;
         }
     }
 }

@@ -17,16 +17,25 @@ public class MenuOptions : MonoBehaviour
 
     public void ResmueTheGame()
     {
+        Time.timeScale = 1;
         timeState.state = TimerScript.TimeState.Unpaused;
+    }
+
+    public void RestartTheGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void PauseTheGame()
     {
+        Time.timeScale = 1;
         timeState.state = TimerScript.TimeState.Paused;
     }
 
     public void QuitTheGame()
     {
+        Time.timeScale = 1;
         Application.Quit();
     }
 }
