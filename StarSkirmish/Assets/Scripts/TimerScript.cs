@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class TimerScript : MonoBehaviour
 {
     //This is how we will contril the time for our game.
-    public enum TimeState {Tutorial, Unpaused, Countdown, Paused, Gameover, Complete};
+    public enum TimeState { Tutorial, Unpaused, Countdown, Paused, Gameover, Complete };
     public TimeState state = TimeState.Countdown;
 
     //If we are going to put a timer in our game.
@@ -23,7 +23,7 @@ public class TimerScript : MonoBehaviour
 
     private void Update()
     {
-        switch(state)
+        switch (state)
         {
             case (TimeState.Tutorial):
                 TutorialScreen();
@@ -45,7 +45,7 @@ public class TimerScript : MonoBehaviour
                 break;
         }
 
-        if(time <= 0)
+        if (time <= 0)
         {
             StopCoroutine("LoseTime");
             state = TimeState.Gameover;
@@ -59,14 +59,14 @@ public class TimerScript : MonoBehaviour
 
     IEnumerator LoseTime()
     {
-        while(true)
+        while (true)
         {
             yield return new WaitForSeconds(1);
             time--;
         }
     }
 
-    public void  TutorialScreen()
+    public void TutorialScreen()
     {
         Time.timeScale = 0;
         tutorialScreen.SetActive(true);
