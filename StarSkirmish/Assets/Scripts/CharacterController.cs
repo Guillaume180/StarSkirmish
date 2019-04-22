@@ -19,7 +19,9 @@ public class CharacterController : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    public GameObject gameOverScreen;
     public TimerScript timeState;
+    public ScoreScript scorePoints;
 
     // Start is called before the first frame update
     void Start()
@@ -92,6 +94,17 @@ public class CharacterController : MonoBehaviour
         {
             Debug.Log("You have made it");
             timeState.state = TimerScript.TimeState.Complete;
+        }
+
+        if (collision.tag == "ScoreBlocks")
+        {
+            scorePoints.scoreBlocks += 25;
+        }
+
+        if (collision.tag == "OutOfGameZone")
+        {
+            Time.timeScale = 0;
+            gameOverScreen.SetActive(true);
         }
     }
 }
