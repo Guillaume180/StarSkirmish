@@ -46,7 +46,7 @@ public class TimerScript : MonoBehaviour
                 break;
         }
 
-        timeText.text = time.ToString("F0");
+        //timeText.text = time.ToString("F0");
         explosionSilder.value = explosion;
     }
 
@@ -86,8 +86,8 @@ public class TimerScript : MonoBehaviour
 
     void GameisOver()
     {
-        Time.timeScale = 0;
-        gameIsOverScreen.SetActive(true);
+    //    Time.timeScale = 0;
+    //    gameIsOverScreen.SetActive(true);
     }
 
     void GameIsComplete()

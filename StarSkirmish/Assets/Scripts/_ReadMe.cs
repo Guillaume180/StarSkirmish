@@ -12,5 +12,6 @@ public class _ReadMe : MonoBehaviour
 
     Download “STAR MONEY” (LOGO DESIGN) by Lady K from: http://memphiswebmarketing.com/dreamteamgraphics/?p=3134
 
+    place holder sprite https://imgur.com/r/pixelart/znNHRWG
          */
 }
