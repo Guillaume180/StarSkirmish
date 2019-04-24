@@ -5,12 +5,13 @@ public class ScoreScript : MonoBehaviour
 {
     public Transform player;
     public Text scoreText;
-    public int scoreBlocks;
+    public float scoreBlocks;
+    public float score;
 
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = player.position.x.ToString("0");
-        //scoreText.text = scoreBlocks.ToString();
+        scoreText.text = score.ToString("0");
+        score = scoreBlocks + player.position.x;
     }
 }

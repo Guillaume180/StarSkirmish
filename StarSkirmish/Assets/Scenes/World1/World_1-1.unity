@@ -6763,7 +6763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344824616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7, y: 1.06, z: -3.6}
+  m_LocalPosition: {x: 0, y: 1.06, z: -3.6}
   m_LocalScale: {x: 0.67972803, y: 0.6564818, z: 0.56644}
   m_Children:
   - {fileID: 1517114750}
@@ -7066,9 +7066,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1351163083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 477b6050e3dba4740a346050c69f95a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e3aa3404e12fbe4cb6c937b4b85a055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 2
+  timeText: {fileID: 1434737795}
+  explosionSilder: {fileID: 707336467}
+  gameIsOverScreen: {fileID: 488660302}
+  gameIsCompleteScreen: {fileID: 1502086737}
+  gameIsPauseScreen: {fileID: 831797217}
+  tutorialScreen: {fileID: 935556089}
+  time: 30
+  explosion: 0
 --- !u!114 &1351163090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7084,6 +7093,7 @@ MonoBehaviour:
   player: {fileID: 1344824620}
   scoreText: {fileID: 1227877176}
   scoreBlocks: 0
+  score: 0
 --- !u!1 &1361568991
 GameObject:
   m_ObjectHideFlags: 0
