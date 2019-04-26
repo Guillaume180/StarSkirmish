@@ -17,6 +17,7 @@ public class MenuOptions : MonoBehaviour
 
     public void ResmueTheGame()
     {
+        Debug.Log("Resume the game");
         Time.timeScale = 1;
         timeState.state = TimerScript.TimeState.Unpaused;
     }

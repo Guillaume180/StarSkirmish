@@ -20,7 +20,6 @@ public class CharacterController : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
-    public GameObject gameOverScreen;
     public TimerScript timeState;
     public ScoreScript scorePoints;
 

@@ -7,25 +7,43 @@ using UnityEngine.SceneManagement;
 public class TimerScript : MonoBehaviour
 {
     //This is how we will contril the time for our game.
-    public enum TimeState { Tutorial, Unpaused, Countdown, Paused, Gameover, Complete };
+    public enum TimeState {Customisation, Tutorial, Unpaused, Countdown, Paused, Gameover, Complete };
     public TimeState state = TimeState.Countdown;
 
     //If we are going to put a timer in our game.
     public Text timeText;
     public Slider explosionSilder;
 
+    public GameObject customisationScreen;
+    public GameObject tutorialScreen;
+    public GameObject gameIsPauseScreen;
     public GameObject gameIsOverScreen;
     public GameObject gameIsCompleteScreen;
-    public GameObject gameIsPauseScreen;
-    public GameObject tutorialScreen;
 
     public float time;
     public float explosion;
+
+    public ScoreScript scoreBoard;
+    public Text scoreText;
+    public int bronzeGoal;
+    public GameObject bronzeStar;
+    public int silverGoal;
+    public GameObject silverStar;
+    public int goldGoal;
+    public GameObject goldStar;
+
+    private void Start()
+    {
+        state = TimeState.Customisation;
+    }
 
     private void Update()
     {
         switch (state)
         {
+            case (TimeState.Customisation):
+                CustomisationScreen();
+                break;
             case (TimeState.Tutorial):
                 TutorialScreen();
                 break;
@@ -63,6 +81,12 @@ public class TimerScript : MonoBehaviour
         }
     }
 
+    void CustomisationScreen()
+    {
+        Time.timeScale = 0;
+        customisationScreen.SetActive(true);
+
+    }
 
     void TutorialScreen()
     {
@@ -72,14 +96,17 @@ public class TimerScript : MonoBehaviour
 
     void UnpauseTheGame()
     {
+        Debug.Log("Game is resumed");
         Time.timeScale = 1;
         gameIsPauseScreen.SetActive(false);
         tutorialScreen.SetActive(false);
+        customisationScreen.SetActive(false);
         state = TimeState.Countdown;
     }
 
     void PauseTheGame()
     {
+        Debug.Log("Game is paused");
         Time.timeScale = 0;
         gameIsPauseScreen.SetActive(true);
     }
@@ -94,6 +121,22 @@ public class TimerScript : MonoBehaviour
     {
         Time.timeScale = 0;
         gameIsCompleteScreen.SetActive(true);
+
+        scoreText.text = scoreBoard.score.ToString();
+
+        if(scoreBoard.score >= bronzeGoal)
+        {
+            bronzeStar.SetActive(true);
+        }
+        if (scoreBoard.score >= silverGoal)
+        {
+            silverStar.SetActive(true);
+        }
+        if (scoreBoard.score >= goldGoal)
+        {
+            goldStar.SetActive(true);
+        }
+
     }
 
 

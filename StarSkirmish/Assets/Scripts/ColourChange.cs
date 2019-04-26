@@ -25,7 +25,13 @@ public class ColourChange : MonoBehaviour
         characterSprite.color = characterColor;
     }
 
-    public void ChangeColorofCharactertoWhite()
+    public void ChangeColorofCharactertoYellow()
+    {
+        characterColor = Color.yellow;
+        characterSprite.color = characterColor;
+    }
+
+    public void DefaultSkin()
     {
         characterColor = Color.white;
         characterSprite.color = characterColor;
