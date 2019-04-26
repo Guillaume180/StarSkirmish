@@ -22,16 +22,17 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    public void HurtEnemy (int damageToGive)
+    void HurtEnemy ()
     {
-        CurrentHealth -= damageToGive;
+        CurrentHealth -= 1;
     }
 
-    public void SetMaxHealth()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        CurrentHealth = MaxHealth;
+        if(collision.tag == "Bullet")
+        {
+            Debug.Log("Enemy is hit");
+            HurtEnemy();
+        }
     }
-
-
-
 }
