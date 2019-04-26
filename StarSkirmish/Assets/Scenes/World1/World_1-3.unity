@@ -283,7 +283,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: RestartTheGame
         m_Mode: 1
         m_Arguments:
@@ -847,7 +847,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: ResmueTheGame
         m_Mode: 1
         m_Arguments:
@@ -1443,7 +1443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: PauseTheGame
         m_Mode: 1
         m_Arguments:
@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: ChangeTheScene
         m_Mode: 3
         m_Arguments:
@@ -3021,7 +3021,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: ChangeTheScene
         m_Mode: 3
         m_Arguments:
@@ -4525,7 +4525,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: ResmueTheGame
         m_Mode: 1
         m_Arguments:
@@ -5464,7 +5464,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: RestartTheGame
         m_Mode: 1
         m_Arguments:
@@ -6113,7 +6113,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: RestartTheGame
         m_Mode: 1
         m_Arguments:
@@ -6624,7 +6624,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: ChangeTheScene
         m_Mode: 3
         m_Arguments:
@@ -6759,7 +6759,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2081123809}
+      - m_Target: {fileID: 0}
         m_MethodName: ChangeTheScene
         m_Mode: 3
         m_Arguments:
@@ -7511,7 +7511,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scorePoints
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2081123808}
     - target: {fileID: 4028197103303367659, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7876,7 +7876,6 @@ GameObject:
   - component: {fileID: 2081123812}
   - component: {fileID: 2081123811}
   - component: {fileID: 2081123810}
-  - component: {fileID: 2081123809}
   - component: {fileID: 2081123808}
   - component: {fileID: 2081123807}
   m_Layer: 5
@@ -7914,19 +7913,6 @@ MonoBehaviour:
   scoreText: {fileID: 554412319}
   scoreBlocks: 0
   score: 0
---- !u!114 &2081123809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081123806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eb57d7fb10492440a3f173adb0592ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeState: {fileID: 2081123807}
 --- !u!114 &2081123810
 MonoBehaviour:
   m_ObjectHideFlags: 0
