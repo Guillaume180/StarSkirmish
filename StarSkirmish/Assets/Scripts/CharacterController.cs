@@ -13,7 +13,7 @@ public class CharacterController : MonoBehaviour
     private int bonusJump;
     public int bonusJumpAmount;
 
-    private bool facingRight = true;
+    public bool facingRight = true;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -47,13 +47,23 @@ public class CharacterController : MonoBehaviour
         myRigBod.velocity = new Vector2(moveInput * Speed, myRigBod.velocity.y);
 
         //fixes look direction
-        if (facingRight ==false && moveInput > 0)
+        if (facingRight == false && moveInput > 0)
         {
             Flip();
         }
         else if (facingRight == true && moveInput < 0)
-        {
+        { 
             Flip();
+        }
+      
+
+        if (moveInput != 0)
+        {
+            GetComponent<Animator>().SetBool("Walking", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Walking", false);
         }
     }
 
@@ -66,6 +76,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && bonusJump > 0)
         {
+            GetComponent<Animator>().SetTrigger("Jump");
             myRigBod.velocity = Vector2.up * jumpForce;
             bonusJump--;
         }
@@ -78,9 +89,12 @@ public class CharacterController : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+
+        //transform.Rotate(0f, 180f, 0f);
+
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
