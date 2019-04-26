@@ -2473,14 +2473,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 511e9608c196ba34a83df0f6ee03ec19, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6759,9 +6759,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1351163083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e3aa3404e12fbe4cb6c937b4b85a055, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a773617a0fbbd4f82cb9c5201e07f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 2
+  timeText: {fileID: 1434737795}
+  explosionSilder: {fileID: 707336467}
+  gameIsOverScreen: {fileID: 488660302}
+  gameIsCompleteScreen: {fileID: 1502086737}
+  gameIsPauseScreen: {fileID: 831797217}
+  tutorialScreen: {fileID: 935556089}
+  time: 30
+  explosion: 0
 --- !u!114 &1351163090
 MonoBehaviour:
   m_ObjectHideFlags: 0
