@@ -4501,7 +4501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -411.6, y: 0}
+  m_AnchoredPosition: {x: -411.5996, y: 0}
   m_SizeDelta: {x: 1411.6, y: 861}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &732239224
@@ -6901,6 +6901,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148929994}
   m_CullTransparentMesh: 0
+--- !u!212 &1149248716 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4028197103303367660, guid: 32429fd936534bc459a928b2e9287542,
+    type: 3}
+  m_PrefabInstance: {fileID: 4028197101959642823}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1153802947
 GameObject:
   m_ObjectHideFlags: 0
@@ -8180,6 +8186,7 @@ GameObject:
   - component: {fileID: 1351163089}
   - component: {fileID: 1351163088}
   - component: {fileID: 1351163090}
+  - component: {fileID: 1351163091}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -8326,6 +8333,20 @@ MonoBehaviour:
   scoreText: {fileID: 1227877176}
   scoreBlocks: 0
   score: 0
+--- !u!114 &1351163091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351163083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964e8a6e8c7700a448171cbeebdc5708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterColor: {r: 0, g: 0, b: 0, a: 0}
+  characterSprite: {fileID: 1149248716}
 --- !u!1 &1361568991
 GameObject:
   m_ObjectHideFlags: 0
