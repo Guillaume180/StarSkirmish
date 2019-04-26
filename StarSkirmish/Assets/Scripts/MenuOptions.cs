@@ -30,7 +30,7 @@ public class MenuOptions : MonoBehaviour
 
     public void PauseTheGame()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0;
         timeState.state = TimerScript.TimeState.Paused;
     }
 
