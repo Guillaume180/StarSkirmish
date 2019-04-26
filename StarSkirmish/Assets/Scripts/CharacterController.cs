@@ -125,8 +125,9 @@ public class CharacterController : MonoBehaviour
         if (collision.tag == "Enemy")
         {
             Debug.Log("Death");
-            Destroy(gameObject);
-            SceneManager.LoadScene("World_1-3");
+            /*Destroy(gameObject);*/
+            Time.timeScale = 0;
+            gameOverScreen.SetActive(true);
 
         }
     }
