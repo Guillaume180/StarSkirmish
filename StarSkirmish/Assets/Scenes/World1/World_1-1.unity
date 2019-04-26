@@ -979,15 +979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &104625570
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1935,15 +1926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &383649212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2145,7 +2127,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a512040dd34602a4d85afc8c44caaadd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3391,15 +3373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &626790607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5268,15 +5241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &1058762012
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5680,15 +5644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &1153802951
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6067,15 +6022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &1227877178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6272,15 +6218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &1264135018
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7430,15 +7367,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &1434737797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9180,15 +9108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &1632388506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11124,15 +11043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &2067465776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11622,15 +11532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a3349345aea7042ac054cb4cb0eb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 0}
-  explosionSilder: {fileID: 0}
-  gameIsOverScreen: {fileID: 0}
-  gameIsCompleteScreen: {fileID: 0}
-  gameIsPauseScreen: {fileID: 0}
-  tutorialScreen: {fileID: 0}
-  time: 0
-  explosion: 0
 --- !u!222 &2109894741
 CanvasRenderer:
   m_ObjectHideFlags: 0
