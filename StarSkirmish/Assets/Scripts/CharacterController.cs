@@ -12,7 +12,7 @@ public class CharacterController : MonoBehaviour
     private int bonusJump;
     public int bonusJumpAmount;
 
-    private bool facingRight = true;
+    public bool facingRight = true;
 
     private bool isGrounded;
     public Transform groundCheck;
