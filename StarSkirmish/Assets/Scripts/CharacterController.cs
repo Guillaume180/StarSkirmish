@@ -118,16 +118,13 @@ public class CharacterController : MonoBehaviour
 
         if (collision.tag == "OutOfGameZone")
         {
-            Time.timeScale = 0;
-            gameOverScreen.SetActive(true);
+            timeState.state = TimerScript.TimeState.Gameover;
         }
 
         if (collision.tag == "Enemy")
         {
             Debug.Log("Death");
-            /*Destroy(gameObject);*/
-            Time.timeScale = 0;
-            gameOverScreen.SetActive(true);
+            timeState.state = TimerScript.TimeState.Gameover;
 
         }
     }

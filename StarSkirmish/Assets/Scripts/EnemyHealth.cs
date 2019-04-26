@@ -27,10 +27,7 @@ public class EnemyHealth : MonoBehaviour
         CurrentHealth -= damageToGive;
     }
 
-    public void SetMaxHealth()
-    {
-        CurrentHealth = MaxHealth;
-    }
+    
 
 
 
