@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
         CurrentHealth -= 1;
     }
 
-<<<<<<< HEAD
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Bullet")
@@ -36,10 +36,4 @@ public class EnemyHealth : MonoBehaviour
             HurtEnemy();
         }
     }
-=======
-    
-
-
-
->>>>>>> 7fdc3bb7b50aa4c4e37f786931ca3b925515b874
 }
