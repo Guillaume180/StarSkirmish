@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class CharacterController : MonoBehaviour
     private int bonusJump;
     public int bonusJumpAmount;
 
-    private bool facingRight = true;
+    public bool facingRight = true;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -46,13 +47,23 @@ public class CharacterController : MonoBehaviour
         myRigBod.velocity = new Vector2(moveInput * Speed, myRigBod.velocity.y);
 
         //fixes look direction
-        if (facingRight ==false && moveInput > 0)
+        if (facingRight == false && moveInput > 0)
         {
             Flip();
         }
         else if (facingRight == true && moveInput < 0)
-        {
+        { 
             Flip();
+        }
+      
+
+        if (moveInput != 0)
+        {
+            GetComponent<Animator>().SetBool("Walking", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Walking", false);
         }
     }
 
@@ -65,6 +76,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && bonusJump > 0)
         {
+            GetComponent<Animator>().SetTrigger("Jump");
             myRigBod.velocity = Vector2.up * jumpForce;
             bonusJump--;
         }
@@ -108,6 +120,14 @@ public class CharacterController : MonoBehaviour
         {
             Time.timeScale = 0;
             gameOverScreen.SetActive(true);
+        }
+
+        if (collision.tag == "Enemy")
+        {
+            Debug.Log("Death");
+            Destroy(gameObject);
+            SceneManager.LoadScene("World_1-3");
+
         }
     }
 }
