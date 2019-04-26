@@ -8,6 +8,8 @@ TagManager:
   - FinishLine
   - ScoreBlocks
   - OutOfGameZone
+  - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
