@@ -2451,16 +2451,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
-        type: 3}
-      propertyPath: gameOverScreen
-      value: 
-      objectReference: {fileID: 417287876}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
-        type: 3}
-      propertyPath: scorePoints
-      value: 
-      objectReference: {fileID: 2081123808}
     - target: {fileID: 4028197103303367659, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2516,11 +2506,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 417287876}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: scorePoints
+      value: 
+      objectReference: {fileID: 2081123808}
     - target: {fileID: 2364108925735146122, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: weaponDirection
       value: 
       objectReference: {fileID: 920381070}
+    - target: {fileID: 4028197103303367660, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028197103303367660, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028197103303367660, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32429fd936534bc459a928b2e9287542, type: 3}
 --- !u!1 &640419433
@@ -7906,15 +7921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 477b6050e3dba4740a346050c69f95a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  timeText: {fileID: 1593530764}
-  explosionSilder: {fileID: 1291452004}
-  gameIsOverScreen: {fileID: 417287876}
-  gameIsCompleteScreen: {fileID: 1830544010}
-  gameIsPauseScreen: {fileID: 998732857}
-  tutorialScreen: {fileID: 1100601047}
-  time: 30
-  explosion: 0
 --- !u!114 &2081123811
 MonoBehaviour:
   m_ObjectHideFlags: 0
