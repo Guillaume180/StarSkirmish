@@ -2451,6 +2451,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 417287876}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: scorePoints
+      value: 
+      objectReference: {fileID: 2081123808}
     - target: {fileID: 4028197103303367659, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2506,16 +2516,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+    - target: {fileID: 2364108925735146122, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
-      propertyPath: gameOverScreen
+      propertyPath: weaponDirection
       value: 
-      objectReference: {fileID: 417287876}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
-        type: 3}
-      propertyPath: scorePoints
-      value: 
-      objectReference: {fileID: 2081123808}
+      objectReference: {fileID: 920381070}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32429fd936534bc459a928b2e9287542, type: 3}
 --- !u!1 &640419433
@@ -3130,6 +3135,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907784966}
   m_CullTransparentMesh: 0
+--- !u!114 &920381070 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+    type: 3}
+  m_PrefabInstance: {fileID: 588907103}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be420a3bfe829f42ac2fe7a08d81924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &936544072
 GameObject:
   m_ObjectHideFlags: 0
@@ -7876,7 +7893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb57d7fb10492440a3f173adb0592ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeState: {fileID: 2081123807}
+  timeState: {fileID: 2081123810}
 --- !u!114 &2081123810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7886,9 +7903,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2081123806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a773617a0fbbd4f82cb9c5201e07f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 477b6050e3dba4740a346050c69f95a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 2
+  timeText: {fileID: 1593530764}
+  explosionSilder: {fileID: 1291452004}
+  gameIsOverScreen: {fileID: 417287876}
+  gameIsCompleteScreen: {fileID: 1830544010}
+  gameIsPauseScreen: {fileID: 998732857}
+  tutorialScreen: {fileID: 1100601047}
+  time: 30
+  explosion: 0
 --- !u!114 &2081123811
 MonoBehaviour:
   m_ObjectHideFlags: 0
