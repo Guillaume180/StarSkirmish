@@ -1,7 +1,111 @@
 fileFormatVersion: 2
 guid: ceb76ca624ca82d4d85213244ae47aef
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Head1Change2_0
+    21300002: Head1Change2_1
+    21300004: Head1Change2_2
+    21300006: Head1Change2_3
+    21300008: Head1Change2_4
+    21300010: Head1Change2_5
+    21300012: Head1Change2_6
+    21300014: Head1Change2_7
+    21300016: Head1Change2_8
+    21300018: Head1Change2_9
+    21300020: Head1Change2_10
+    21300022: Head1Change2_11
+    21300024: Head1Change2_12
+    21300026: Head1Change2_13
+    21300028: Head1Change2_14
+    21300030: Head1Change2_15
+    21300032: Head1Change2_16
+    21300034: Head1Change2_17
+    21300036: Head1Change2_18
+    21300038: Head1Change2_19
+    21300040: Head1Change2_20
+    21300042: Head1Change2_21
+    21300044: Head1Change2_22
+    21300046: Head1Change2_23
+    21300048: Head1Change2_24
+    21300050: Head1Change2_25
+    21300052: Head1Change2_26
+    21300054: Head1Change2_27
+    21300056: Head1Change2_28
+    21300058: Head1Change2_29
+    21300060: Head1Change2_30
+    21300062: Head1Change2_31
+    21300064: Head1Change2_32
+    21300066: Head1Change2_33
+    21300068: Head1Change2_34
+    21300070: Head1Change2_35
+    21300072: Head1Change2_36
+    21300074: Head1Change2_37
+    21300076: Head1Change2_38
+    21300078: Head1Change2_39
+    21300080: Head1Change2_40
+    21300082: Head1Change2_41
+    21300084: Head1Change2_42
+    21300086: Head1Change2_43
+    21300088: Head1Change2_44
+    21300090: Head1Change2_45
+    21300092: Head1Change2_46
+    21300094: Head1Change2_47
+    21300096: Head1Change2_48
+    21300098: Head1Change2_49
+    21300100: Head1Change2_50
+    21300102: Head1Change2_51
+    21300104: Head1Change2_52
+    21300106: Head1Change2_53
+    21300108: Head1Change2_54
+    21300110: Head1Change2_55
+    21300112: Head1Change2_56
+    21300114: Head1Change2_57
+    21300116: Head1Change2_58
+    21300118: Head1Change2_59
+    21300120: Head1Change2_60
+    21300122: Head1Change2_61
+    21300124: Head1Change2_62
+    21300126: Head1Change2_63
+    21300128: Head1Change2_64
+    21300130: Head1Change2_65
+    21300132: Head1Change2_66
+    21300134: Head1Change2_67
+    21300136: Head1Change2_68
+    21300138: Head1Change2_69
+    21300140: Head1Change2_70
+    21300142: Head1Change2_71
+    21300144: Head1Change2_72
+    21300146: Head1Change2_73
+    21300148: Head1Change2_74
+    21300150: Head1Change2_75
+    21300152: Head1Change2_76
+    21300154: Head1Change2_77
+    21300156: Head1Change2_78
+    21300158: Head1Change2_79
+    21300160: Head1Change2_80
+    21300162: Head1Change2_81
+    21300164: Head1Change2_82
+    21300166: Head1Change2_83
+    21300168: Head1Change2_84
+    21300170: Head1Change2_85
+    21300172: Head1Change2_86
+    21300174: Head1Change2_87
+    21300176: Head1Change2_88
+    21300178: Head1Change2_89
+    21300180: Head1Change2_90
+    21300182: Head1Change2_91
+    21300184: Head1Change2_92
+    21300186: Head1Change2_93
+    21300188: Head1Change2_94
+    21300190: Head1Change2_95
+    21300192: Head1Change2_96
+    21300194: Head1Change2_97
+    21300196: Head1Change2_98
+    21300198: Head1Change2_99
+    21300200: Head1Change2_100
+    21300202: Head1Change2_101
+    21300204: Head1Change2_102
+    21300206: Head1Change2_103
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +144,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +173,2100 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Head1Change2_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1986
+        width: 119
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd0520def0f65a42acb648f3e8e85dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1979
+        width: 114
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30f4267a5cb03142848b8c3e776fa75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1978
+        width: 111
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e163273fb3c93da45853dfa612a80c37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1979
+        width: 111
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5dd774affcf0d49a787505c2684ca7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1987
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0c06b1ed4d4334f9e003414b0a98ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_5
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1991
+        width: 120
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c837a1136be36e4794ca5ddd0498017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_6
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1987
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8eb2802df42574b954f1f5a2463d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1960
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9975faf645cb9449b517ab8b497b691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1960
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c849f7efc8c254c8fc11f27246e1f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1960
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a45a255861964c8ff08c5adee7c75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1960
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9931a024932c58a46851619ddb82abb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_11
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1960
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f6a3bae4ecb6498b0c0665f980d1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_12
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1960
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb380f632fe734b819d57990d810db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1960
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b051c46f230a3846b855de0e649fa44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1699
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceecc1e4c2a1fd648bbc224a4a76165a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1699
+        width: 110
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b99486a1f0afb42bb1947029401b32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1698
+        width: 111
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5f18df72c112b4697f9f7d13885a4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_17
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1707
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b4f30765143dd47beb4e9d24d9bb97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_18
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1711
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9847ddf98239b64c8a82c6ea09e15b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_19
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1706
+        width: 120
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2b490ac4e994f4081d64bf73f2bed5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_20
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1699
+        width: 114
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a492af956afd4b8a5a0072641984b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1419
+        width: 110
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee2b38427de154c8278d71d0142043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_22
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1419
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e10cda114d98e840aaeb93da694465f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1427
+        width: 120
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab16beba34b7e5b4caa2db8adf98134b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_24
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1431
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0811b171838c9e3408be1a27bd6dc9fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_25
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1427
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddc405c9cdc57849aac645b0bc80618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_26
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1419
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb42c3d6bc7aded499244503ddbd8c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_27
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1419
+        width: 111
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ebd48b022a0b64e9c27320eb7e8d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1166
+        width: 110
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a2fa09e632d44f85340642721a409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1187
+        width: 110
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534d8530321fcca4bbc7359d2c1405b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_30
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1120
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9545c1c2dbc9824fad4a81e0868524a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_31
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1120
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c29940f9cf57478eb8de7f80fce8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_32
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1120
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04f84247f912dd45ba26fb3ca60879b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_33
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1120
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0c7979d0ea22141b77f30a9aa33167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_34
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1198
+        width: 113
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60072b3c327097e408f45974335dfbd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_35
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 893
+        width: 110
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38b89fec2930d48a78b4ebbe890839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 859
+        width: 110
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa3e1b3e2654e4281a24fb16df994e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_37
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 858
+        width: 111
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c174331f072c29d4cb42ea55f51db200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_38
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 859
+        width: 111
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a255f15417d7b40be88d1f3ba083ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_39
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 867
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f611786e2905c784095d9be8f6256557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_40
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 871
+        width: 120
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9589c16991525af4e819babf5e7a622f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_41
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 859
+        width: 114
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d841a502f4254fbdff6f0bcb0cbfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_42
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 579
+        width: 110
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa62b5083cd1b6b4c93f7d27ed9cbb48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_43
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 579
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47420fe71ba0d349bf8122519354cf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_44
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 579
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe576f0f50e15ed4e90589e7a7f6ba6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_45
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 579
+        width: 111
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ffa5834e26ffa44900d26b63baacf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_46
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 578
+        width: 109
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53849a1510c15428c9f663b4fc095f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_47
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 579
+        width: 111
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6919c27fd7bac5d499737598c1239349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_48
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 579
+        width: 107
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffcc7f39738ff0458eda1d4ecddbc94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_49
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 298
+        width: 110
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227359cf7b01fca44934e09e911cb7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_50
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 299
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34be0571ea6674943b619b71d41ceb9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_51
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 307
+        width: 120
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd0ebada628c9c46bb060954fb4d692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_52
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 311
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9cf6b211516904d84bd15b523e8dbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_53
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 307
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61366f0c91f6414c95f8eaea09abdcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_54
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 299
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ba2790bc76f184e9dc84d211a2bb28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_55
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 299
+        width: 111
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dea49c2efabc47449689397ee5447f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1680
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dc16d5930623042afd887f884e6c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_57
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1680
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7570312ae543d84881f35e25824e354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_58
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1680
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7928977bc62cbb145b09a8682baa55ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_59
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1680
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2223d6dd1436684eb7b2c8670bcbec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_60
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1680
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dd3b66080708a4784dd6c742ca8851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_61
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1680
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34d3ff03c514f449bf9ebdfa2511b87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_62
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1680
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a60180cc1dfc64da72ac3bb8ec5d13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_63
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1400
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85061e236f58bdf4bb39c50bf40c4ef6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_64
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1400
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb106f0f71f6284ea4ec3bd1578fd3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_65
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1400
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c49eadccb615f468a84af264e0b93d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_66
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1400
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b9ba0bbafcf4448a2b79461086edee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_67
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1400
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86166d21208be714f919b272274676fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_68
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1400
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a02d5317c58e14db45aa29a70a2d21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_69
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1400
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284da66b26a65994da8b87bec193043d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_70
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1207
+        width: 111
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057f8f1924371b4981a2111638ddeac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_71
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1227
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd29864263dacb49a7f5a4b4c9322c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_72
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1231
+        width: 110
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f42e3985610e124fbc95d6d4bae3295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_73
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1227
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cae4e5c74e6e5a4fa9261d4c96ce978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1120
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e371bc2f05c8a488aac9da715a0217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_75
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1120
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23167391d7e4f8e45bc3897bce653365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_76
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1120
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217c538e80f983c45a0c12534b2a0fb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_77
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 840
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cba77d59fcd03b4eb1c385e0a2d052f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_78
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 840
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abff7273a35bb04494d2034624679dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_79
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 840
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfb43b0b54bb324594b0fa90b8f3f70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_80
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 840
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12bee9c519646f4d9ac0d48c218f6a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_81
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 840
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915f8139ea4246245b19552e1b921f98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_82
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 840
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8148c8a3374e07b46875b4f758fa5b69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_83
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 840
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb44ad7163f0b644a9686c5f4d0def3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_84
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 560
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c60a2ad7ece2341a0b7f7478d11cf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_85
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 560
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca5065974525fa45b8f794aa6a819e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_86
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 560
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3554d72c50efae0489b967ec2a1148b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_87
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 560
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeafab50626816d40b7fde43470eef9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_88
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 560
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018785f7200567843a7de70ccd37a71c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_89
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 560
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f81a51e5bb1a4e49bb6c8a31af7377e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_90
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 560
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4034d3389cc794e80f76423a57eeef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_91
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 280
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079636ee1a36814681a9eae898df1c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_92
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 280
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dee26ef30109da4d89543f115356b04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_93
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 280
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ccaa1f5a516c248afaaa0a7b623a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_94
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 280
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c28cccb7655389489443b859cb3b64e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_95
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 280
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd7159110e02b47a621c7c9057d080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_96
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 280
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8a245d4887dc4b90061fe9619d629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_97
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 280
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e401c3303f96d4787244e39657f034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_98
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 19
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401cb8e517c354541b1676162ce630de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_99
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 26
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9725d9300d4d74c8bfc81994d00994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_100
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 31
+        width: 120
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaf72b489e131248b20769f72a4a858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_101
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b7f01a65d9224498a78f99dba42053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_102
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78da8d358c0ef664695d1c6f101104ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head1Change2_103
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76d18a7becf8b245b2e994dad30ff95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
