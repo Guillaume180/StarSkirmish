@@ -14774,6 +14774,7 @@ PrefabInstance:
       propertyPath: scorePoints
       value: 
       objectReference: {fileID: 1351163090}
+<<<<<<< HEAD
     - target: {fileID: 6068764426273924675, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: m_RootOrder
@@ -14823,6 +14824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be420a3bfe829f42ac2fe7a08d81924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32429fd936534bc459a928b2e9287542, type: 3}
+>>>>>>> ca2178cbf05492ee76f28de9bf48c92da3719f11
 --- !u!1001 &7727292898690060985
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -119,6 +120,14 @@ public class CharacterController : MonoBehaviour
         {
             Time.timeScale = 0;
             gameOverScreen.SetActive(true);
+        }
+
+        if (collision.tag == "Enemy")
+        {
+            Debug.Log("Death");
+            Destroy(gameObject);
+            SceneManager.LoadScene("World_1-3");
+
         }
     }
 }
