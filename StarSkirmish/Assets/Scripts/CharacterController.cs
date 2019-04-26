@@ -12,7 +12,7 @@ public class CharacterController : MonoBehaviour
     private int bonusJump;
     public int bonusJumpAmount;
 
-    private bool facingRight = true;
+    public bool facingRight = true;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -78,7 +78,11 @@ public class CharacterController : MonoBehaviour
     {
         facingRight = !facingRight;
 
-        transform.Rotate(0f, 180f, 0f);
+        //transform.Rotate(0f, 180f, 0f);
+
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
