@@ -8180,7 +8180,6 @@ GameObject:
   - component: {fileID: 1351163089}
   - component: {fileID: 1351163088}
   - component: {fileID: 1351163090}
-  - component: {fileID: 1351163091}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -8327,18 +8326,6 @@ MonoBehaviour:
   scoreText: {fileID: 1227877176}
   scoreBlocks: 0
   score: 0
---- !u!114 &1351163091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351163083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e9503f02502a8742928841241990e2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1361568991
 GameObject:
   m_ObjectHideFlags: 0
@@ -14716,6 +14703,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 488660302}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: timeState
+      value: 
+      objectReference: {fileID: 1351163089}
+    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
+        type: 3}
+      propertyPath: scorePoints
+      value: 
+      objectReference: {fileID: 1351163090}
     - target: {fileID: 4028197103303367659, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14771,21 +14773,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
-        type: 3}
-      propertyPath: gameOverScreen
-      value: 
-      objectReference: {fileID: 488660302}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
-        type: 3}
-      propertyPath: timeState
-      value: 
-      objectReference: {fileID: 1351163089}
-    - target: {fileID: 4028197103303367658, guid: 32429fd936534bc459a928b2e9287542,
-        type: 3}
-      propertyPath: scorePoints
-      value: 
-      objectReference: {fileID: 1351163090}
     - target: {fileID: 2364108925735146122, guid: 32429fd936534bc459a928b2e9287542,
         type: 3}
       propertyPath: weaponDirection
