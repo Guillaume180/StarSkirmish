@@ -46,13 +46,23 @@ public class CharacterController : MonoBehaviour
         myRigBod.velocity = new Vector2(moveInput * Speed, myRigBod.velocity.y);
 
         //fixes look direction
-        if (facingRight ==false && moveInput > 0)
+        if (facingRight == false && moveInput > 0)
         {
             Flip();
         }
         else if (facingRight == true && moveInput < 0)
-        {
+        { 
             Flip();
+        }
+      
+
+        if (moveInput != 0)
+        {
+            GetComponent<Animator>().SetBool("Walking", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Walking", false);
         }
     }
 
@@ -65,6 +75,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && bonusJump > 0)
         {
+            GetComponent<Animator>().SetTrigger("Jump");
             myRigBod.velocity = Vector2.up * jumpForce;
             bonusJump--;
         }
@@ -78,7 +89,11 @@ public class CharacterController : MonoBehaviour
     {
         facingRight = !facingRight;
 
-        transform.Rotate(0f, 180f, 0f);
+        //transform.Rotate(0f, 180f, 0f);
+
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
